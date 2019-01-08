@@ -88,14 +88,12 @@ Fetching data examples:
 ```
 http://localhost:8080/api/get_cat_facts/cat,person/
 ```
-returns a dictionary containing two tree hierarchies of facts: one of people and one for cats.
-```
+returns a dictionary containing two fact hierarchies: cats, and people.
 
 ```
 http://localhost:8080/api/get_cat_facts/all/
 ```
 returns a dictionary of all fact hierarchies found in the database.
-
 
 Writing data examples:
 
