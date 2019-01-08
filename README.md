@@ -83,9 +83,7 @@ python cat_facts_tree_api.py
 
 By default, it's served to localhost on port 8080.
 
-##
-
-Fetching data examples:
+## Fetching data examples:
 
 ```
 http://localhost:8080/api/get_cat_facts/cat,person/
@@ -97,9 +95,7 @@ http://localhost:8080/api/get_cat_facts/all/
 ```
 returns a dictionary of all fact hierarchies found in the database.
 
-##
-
-Writing data examples:
+## Writing data examples:
 
 There's also an endpoint that allows you to write a new cat fact and save it as a node in the database with a POST request. The endpoint looks for an object payload with the key of "new_cat_facts", which should be a list of dictionaries. If only one new fact is being submitted, it should be the singular item in a list.
 
