@@ -8,11 +8,11 @@ Once the cat facts are classified into hierarchies, the data is saved into Postg
 
 # Screenshots
 
-<img src="screenshots/cat_facts_tree_classification_results.png" height="650" alt="Cat facts hierarchical tree classification results"/>
+<img src="screenshots/cat_facts_tree_classification_results.png" height="600" alt="Cat facts hierarchical tree classification results"/>
 
 Results of the hierarchical tree classification of the cat facts.
 
-<img src="screenshots/cat_facts_tree_model_classes_data.png" height="450" alt="The data that defines the weight of the bag-of-words model"/>
+<img src="screenshots/cat_facts_tree_model_classes_data.png" height="600" alt="The data that defines the weight of the bag-of-words model"/>
 
 Screenshot of how the data models were built that define how the weighted bag-of-words works, which eventually gives rise to hierarchical classifications based on the weights and topics (word tokens) found.
 
