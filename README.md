@@ -83,6 +83,8 @@ python cat_facts_tree_api.py
 
 By default, it's served to localhost on port 8080.
 
+##
+
 Fetching data examples:
 
 ```
@@ -94,6 +96,8 @@ returns a dictionary containing two fact hierarchies: cats, and people.
 http://localhost:8080/api/get_cat_facts/all/
 ```
 returns a dictionary of all fact hierarchies found in the database.
+
+##
 
 Writing data examples:
 
